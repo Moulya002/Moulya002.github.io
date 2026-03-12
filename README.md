@@ -1,6 +1,6 @@
 # My-Portfolio
 
-This repository contains the source code for my personal portfolio website. The portfolio showcases my projects, technical skills, and experience in Data Science, Artificial Intelligence, and Cloud Computing.
+This repository contains the source code for my personal portfolio website. The portfolio which showcases my projects, technical skills, and experience in Data Science, Artificial Intelligence, Statistics, Calculus and SQL.
 
 ## Highlights
 
