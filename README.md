@@ -11,7 +11,9 @@ This repository contains the source code for my personal portfolio website. The 
 ## Tech Stack
 
 HTML
+
 CSS
+
 JavaScript
 
 ## Connect With Me
