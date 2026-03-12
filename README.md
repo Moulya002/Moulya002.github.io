@@ -5,7 +5,9 @@ This repository contains the source code for my personal portfolio website. The 
 ## Highlights
 
 • Machine Learning and AI projects
+
 • Data analytics and visualization platforms
+
 • Software engineering and database systems
 
 ## Tech Stack
