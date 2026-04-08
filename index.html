@@ -2,158 +2,343 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<title>Moulya | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Moulya Reddygari Bhupal — Data Science graduate (UNT). I'm open to Data Engineering, Data Science, and AI/ML roles, with a focus on building scalable data pipelines and AI agents.">
+  <title>Moulya Reddygari Bhupal | Data Scientist & AI/ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<header>
-<h1>Moulya Reddygari Bhupal</h1>
-<p>Data Scientist | AI/ML Engineer</p>
-</header>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#">My Portfolio</a>
+      <nav class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<section id="about">
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="eyebrow">Data Science · AI/ML · Data Engineering</p>
+        <h1 id="hero-heading">Moulya Reddygari Bhupal</h1>
+        <p class="hero-lead">
+          Data Science graduate with hands-on experience building scalable data pipelines, ETL workflows, and AI/ML systems.
+          Skilled in Python, SQL, Spark, Airflow, and cloud platforms (GCP, Azure, AWS)—turning raw multi-source data into actionable insights and shipping solutions cross-functionally.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="#contact-form">Get in touch</a>
+        </div>
+      </div>
+    </section>
 
-<h2>About Me</h2>
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p class="lead">
+          I focus on data infrastructure and AI-driven analytics: from ETL and orchestration to LLM-powered applications and classical ML.
+          I’m ready to contribute to data platforms and analytics engineering from day one.
+        </p>
+      </div>
+    </section>
 
-<p>
-Data Science graduate student passionate about building scalable cloud systems,
-AI-driven applications, and data analytics platforms. Experienced in Python,
-machine learning frameworks, and building AI agents.
-</p>
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="education-grid">
+          <article class="card">
+            <h3>M.S., Data Science</h3>
+            <p class="card-title">University of North Texas</p>
+            <p class="card-meta">2024 – 2026 · GPA 4.0 / 4.0</p>
+          </article>
+          <article class="card">
+            <h3>B.S., Computer Science</h3>
+            <p class="card-title">Sree Vidyanikethan Engineering College</p>
+            <p class="card-meta">2019 – 2023 · GPA 3.4 / 4.0</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-</section>
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Professional experience</h2>
+        <article class="card experience-card">
+          <header class="experience-header">
+            <div>
+              <h3 class="experience-title">Packaged App Development Associate</h3>
+              <p class="card-meta">Accenture · Bangalore, India · Jul 2023 – Jul 2024</p>
+            </div>
+          </header>
+          <p class="experience-intro">Spring Boot, Node.js microservices, React, and cloud deployment with CI/CD.</p>
+          <ul class="card-list experience-list">
+            <li>Built Spring Boot and Node.js microservices on GCP for 10+ client applications; improved API latency through tuned request/response flows and caching.</li>
+            <li>Built responsive UIs with React to improve usability of web-based applications.</li>
+            <li>Implemented cloud-native microservices with CI/CD on Azure and GCP for secure deployment and reliability across distributed environments, enabling regular low-risk AI feature releases.</li>
+            <li>Structured and optimized RESTful APIs with Node.js for microservice communication and system performance.</li>
+            <li>Used MongoDB for data management and Docker for containerization to streamline storage and deployment.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
 
-<section id="skills">
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Technical skills</h2>
+        <p class="section-intro">Aligned with my résumé—programming, ML, data platforms, and cloud.</p>
 
-<h2>Skills</h2>
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h3 class="skill-group-title">Programming</h3>
+            <ul class="skill-tags" aria-label="Programming languages">
+              <li>Python</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title">AI/ML &amp; data tools</h3>
+            <ul class="skill-tags" aria-label="AI and ML tools">
+              <li>ETL/ELT</li>
+              <li>Apache Spark</li>
+              <li>Prompt engineering</li>
+              <li>LLM applications</li>
+              <li>TensorFlow</li>
+              <li>Keras</li>
+              <li>scikit-learn</li>
+              <li>Pandas</li>
+              <li>NumPy</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title">Data &amp; analytics</h3>
+            <ul class="skill-tags" aria-label="Data and analytics">
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>Tableau</li>
+              <li>Matplotlib</li>
+              <li>Streamlit</li>
+              <li>A/B testing</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title">Cloud &amp; MLOps</h3>
+            <ul class="skill-tags" aria-label="Cloud and MLOps">
+              <li>Azure</li>
+              <li>GCP</li>
+              <li>AWS</li>
+              <li>Airflow</li>
+              <li>Docker</li>
+              <li>CI/CD</li>
+              <li>Jenkins</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div class="skills">
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="section-intro">Research, personal, and academic projects with measurable outcomes.</p>
 
-<span>Python</span>
-<span>Java</span>
-<span>C++</span>
-<span>JavaScript</span>
-<span>React</span>
-<span>NodeJS</span>
-<span>AWS</span>
-<span>Azure</span>
-<span>GCP</span>
-<span>Docker</span>
-<span>TensorFlow</span>
-<span>SQL</span>
+        <div class="projects">
+          <article class="project-card">
+            <header class="project-header">
+              <h3>RAG-Based Interview Agent</h3>
+              <p class="project-sub">Research project · Advisor: Dr. Clifford Whitworth, University of North Texas · Mar 2026 – May 2026</p>
+            </header>
+            <p>
+              Production-grade Retrieval-Augmented Generation system with modular, role-based architecture for grounded interview workflows.
+            </p>
+            <ul class="project-highlights">
+              <li>Built with LangChain, LangGraph, and ChromaDB; top-k semantic retrieval with context injection and a hallucination guard for grounded responses.</li>
+              <li>Scalable document ingestion with duplicate detection, recursive chunking (100–300 words), metadata tagging, and embedding-based indexing.</li>
+              <li>LangGraph interview assistant with multi-stage prompts for question generation, answer evaluation, and structured responses.</li>
+              <li>Source-grounded outputs with structured JSON and citation support for traceability.</li>
+            </ul>
+            <p class="project-tools" aria-label="Tools used"><strong>Tools used:</strong> Python · LangChain · LangGraph · ChromaDB · Groq · LLMs · Streamlit · vector databases</p>
+            <div class="project-links">
+              <a class="btn btn-sm btn-primary" href="https://github.com/Moulya002" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
 
-</div>
+          <article class="project-card">
+            <header class="project-header">
+              <h3>Energy Consumption Forecasting (Smart Grids)</h3>
+              <p class="project-sub">Personal project · Sep 2025 – Dec 2025</p>
+            </header>
+            <p>
+              Time-series forecasting on 1M+ records with 34 features using predictive modeling for smart-grid energy use.
+            </p>
+            <ul class="project-highlights">
+              <li>Achieved R² 0.969, RMSE 94.33, MAE 66.03 with LightGBM after extensive feature engineering and model comparison.</li>
+              <li>Engineered 20+ features: cyclical encoding, lags, rolling statistics, weather indicators (HDD/CDD).</li>
+              <li>Compared Linear, Ridge, Random Forest, XGBoost, LightGBM, ANN, with ensemble improvements; time-series split validation to prevent leakage.</li>
+              <li>Custom ETL for multi-source data, KNN imputation, and IQR-based outlier handling.</li>
+            </ul>
+            <p class="project-tools" aria-label="Tools used"><strong>Tools used:</strong> Python · Pandas · scikit-learn · XGBoost · LightGBM · time-series forecasting · feature engineering</p>
+            <div class="project-links">
+              <a class="btn btn-sm btn-primary" href="https://github.com/Moulya002" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
 
-</section>
+          <article class="project-card">
+            <header class="project-header">
+              <h3>Taxi Fare Prediction System</h3>
+              <p class="project-sub">Personal project · Aug 2025 – Dec 2025</p>
+            </header>
+            <p>
+              ML pipeline on the NYC TLC dataset to predict fares from trip-level and engineered distance and temporal features.
+            </p>
+            <ul class="project-highlights">
+              <li>Compared Linear Regression, Decision Tree, and Random Forest; feature engineering drove the largest gains.</li>
+              <li>Preprocessing: missing-value imputation and outlier removal for higher data quality.</li>
+              <li>Streamlit app for real-time fare prediction and interactive visualization.</li>
+            </ul>
+            <p class="project-tools" aria-label="Tools used"><strong>Tools used:</strong> Python · Pandas · scikit-learn · Streamlit · feature engineering</p>
+            <div class="project-links">
+              <a class="btn btn-sm btn-primary" href="https://github.com/Moulya002" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
 
-<section id="projects">
+          <article class="project-card">
+            <header class="project-header">
+              <h3>GlobeScope — Global Data Analytics Dashboard</h3>
+              <p class="project-sub">Personal project · May 2025 – Jul 2025</p>
+            </header>
+            <p>
+              End-to-end analytics platform ingesting data from APIs (e.g., World Bank, Google Trends) and visualizing real-time metrics across 150+ countries.
+            </p>
+            <ul class="project-highlights">
+              <li>Designed Python/SQL pipelines for automated ingestion, transformation, and storage in PostgreSQL with strong data-quality controls.</li>
+              <li>Built interactive Tableau and Streamlit dashboards for regional analysis, metric selection, and trends—with query times under about 2 seconds; evaluated Apache Spark for large-scale multi-country ingestion.</li>
+              <li>Automated refresh with Airflow and Google Cloud Scheduler, cutting manual reporting effort by roughly 60%.</li>
+            </ul>
+            <p class="project-tools" aria-label="Tools used"><strong>Tools used:</strong> Python · SQL · Pandas · PostgreSQL · Streamlit · Airflow · Tableau · Google Cloud Scheduler</p>
+            <div class="project-links">
+              <a class="btn btn-sm btn-primary" href="https://github.com/Moulya002" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
 
-<h2>Projects</h2>
+          <article class="project-card">
+            <header class="project-header">
+              <h3>Game of Tiles — AI Agent for 2048</h3>
+              <p class="project-sub">Personal project · Feb 2025 – Apr 2025</p>
+            </header>
+            <p>
+              Reinforcement-style game agent that learns to play 2048 from experience, using reward feedback to improve policy over time.
+            </p>
+            <ul class="project-highlights">
+              <li>Trained a deep neural network to replace a human player from game state, improving through continued gameplay.</li>
+              <li>Outperformed rule-based baselines by about 35%; reached scores of 65,000+ and the 2048 tile within ~25 minutes of learning.</li>
+            </ul>
+            <p class="project-tools" aria-label="Tools used"><strong>Tools used:</strong> Python · TensorFlow · Keras · Pandas · NumPy</p>
+            <div class="project-links">
+              <a class="btn btn-sm btn-primary" href="https://github.com/Moulya002" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
 
-<div class="project">
+          <article class="project-card">
+            <header class="project-header">
+              <h3>Catering Service Database</h3>
+              <p class="project-sub">Advisor: Dr. Sahara Ali, College of Information, University of North Texas · Oct 2024 – Dec 2024</p>
+            </header>
+            <p>
+              Relational database for an event-management catering workflow—food supply chain, events, staff, and payroll—with less redundancy and clearer operations.
+            </p>
+            <ul class="project-highlights">
+              <li>MySQL schema and processes that reduced data redundancy by about 35% and manual record-keeping effort by about 40%.</li>
+              <li>Led a team of four with on-time delivery; schema designed with scalability as data volume grows.</li>
+              <li>Visualization and analysis for stakeholders; earned Best Presentation Award and a professor recommendation letter.</li>
+            </ul>
+            <p class="project-tools" aria-label="Tools used"><strong>Tools used:</strong> MySQL · Python</p>
+            <div class="project-links">
+              <a class="btn btn-sm btn-primary" href="https://github.com/Moulya002" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
 
-<h3>GlobeScope – Global Data Analytics Platform</h3>
+          <article class="project-card">
+            <header class="project-header">
+              <h3>AI-Powered E-Commerce Product Recommendation System</h3>
+              <p class="project-sub">Advisor: Prof. Narendra Kumar Rao, Sree Vidyanikethan Engineering College · Dec 2022 – Apr 2023</p>
+            </header>
+            <p>
+              Hybrid recommender combining collaborative filtering with deep learning for personalized product suggestions on simulated e-commerce data.
+            </p>
+            <ul class="project-highlights">
+              <li>Matrix factorization plus neural components; ~25% higher recommendation accuracy on a 10,000-user synthetic dataset vs. baselines.</li>
+              <li>Published in IEEE ICRTDA 2024 proceedings; presented at NCKITS 2023 (Tirupati, India).</li>
+            </ul>
+            <p class="project-tools" aria-label="Tools used"><strong>Tools used:</strong> Python · Pandas · NumPy · TensorFlow · Keras · scikit-learn</p>
+            <div class="project-links">
+              <a class="btn btn-sm btn-primary" href="https://github.com/Moulya002" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<p>
-Built an end-to-end analytics platform that processes and visualizes global datasets from public APIs
-across 150+ countries.
-</p>
+    <section id="contact" class="section contact-section section-alt" aria-labelledby="contact-heading">
+      <div class="container narrow">
+        <h2 id="contact-heading">Contact</h2>
+        <p class="section-intro">I'm open to Data Engineering, Data Science, and AI/ML roles, with a focus on building scalable data pipelines and AI agents.</p>
 
-<ul>
-<li>Designed automated data pipelines for ingestion and processing</li>
-<li>Developed dashboards using Streamlit and Tableau</li>
-<li>Automated data refresh using Airflow and Cloud Scheduler</li>
-</ul>
+        <div id="contact-form" class="contact-form-card">
+          <h3 class="contact-form-title">Send a message</h3>
+          <form class="contact-form" id="portfolio-contact-form" novalidate>
+            <div class="form-field">
+              <label for="contact-name">Name <span class="optional">(optional)</span></label>
+              <input type="text" id="contact-name" name="name" autocomplete="name" placeholder="Your name">
+            </div>
+            <div class="form-field">
+              <label for="contact-email">Your email <span class="required-mark">*</span></label>
+              <input type="email" id="contact-email" name="email" autocomplete="email" required placeholder="name@example.com">
+            </div>
+            <div class="form-field">
+              <label for="contact-message">Message <span class="required-mark">*</span></label>
+              <textarea id="contact-message" name="message" rows="5" required placeholder="Your question, opportunity, or note…"></textarea>
+            </div>
+            <p class="form-error" id="contact-form-error" role="alert" hidden></p>
+            <p class="form-success" id="contact-form-success" role="status" hidden>Thanks—your message was sent. I’ll get back to you soon.</p>
+            <button type="submit" class="btn btn-primary btn-send" id="contact-submit-btn">Send message</button>
+          </form>
+        </div>
 
-<p class="tech">
-Tech: Python • PostgreSQL • Pandas • Streamlit • Airflow
-</p>
+        <p class="contact-divider">Or reach me directly</p>
+        <div class="contact-links">
+          <a class="contact-chip" href="mailto:moulyarb02@gmail.com">moulyarb02@gmail.com</a>
+          <a class="contact-chip" href="tel:+19406297494">(940) 629-7494</a>
+          <a class="contact-chip" href="https://www.linkedin.com/in/moulyarb/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="contact-chip" href="https://github.com/Moulya002" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<a href="https://github.com/Moulya002" target="_blank">View Code</a>
-
-</div>
-
-
-<div class="project">
-
-<h3>AI Agent for 2048 Game</h3>
-
-<p>
-Developed a reinforcement learning based AI agent that learns optimal strategies
-to autonomously play the 2048 puzzle game.
-</p>
-
-<ul>
-<li>Implemented Deep Neural Network model</li>
-<li>Optimized training through reward feedback</li>
-<li>Achieved scores above 65,000</li>
-</ul>
-
-<p class="tech">
-Tech: Python • TensorFlow • Keras • NumPy
-</p>
-
-<a href="https://github.com/Moulya002" target="_blank">View Code</a>
-
-</div>
-
-
-<div class="project">
-
-<h3>AI Product Recommendation System</h3>
-
-<p>
-Built a hybrid recommendation engine using collaborative filtering and deep
-learning techniques to deliver personalized product suggestions.
-</p>
-
-<ul>
-<li>Implemented matrix factorization models</li>
-<li>Integrated neural network models</li>
-<li>Improved recommendation accuracy by 25%</li>
-</ul>
-
-<p class="tech">
-Tech: Python • TensorFlow • Scikit-learn • Pandas
-</p>
-
-<a href="https://github.com/Moulya002" target="_blank">View Code</a>
-
-</div>
-
-</section>
-
-
-<section id="contact">
-
-<h2>Contact</h2>
-
-<p>Feel free to connect with me.</p>
-
-<div class="contact-links">
-
-<a href="mailto:moulyarb02@gmail.com">Email</a>
-
-<a href="https://www.linkedin.com/in/moulyarb/" target="_blank">
-LinkedIn
-</a>
-
-<a href="https://github.com/Moulya002" target="_blank">
-GitHub
-</a>
-
-</div>
-
-</section>
-
-<footer>
-
-<p>© 2026 Moulya</p>
-
-</footer>
-
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Moulya Reddygari Bhupal</p>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
 </body>
+
 </html>
