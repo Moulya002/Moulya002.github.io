@@ -576,8 +576,19 @@ body {
 }
 
 /* —— Experience —— */
-.experience-card {
+.experience-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
   margin-top: 1.25rem;
+}
+
+.experience-card {
+  margin-top: 0;
+}
+
+.experience-links {
+  margin: 0.25rem 0 0;
 }
 
 .experience-header {

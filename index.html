@@ -92,22 +92,43 @@
     <section id="experience" class="section">
       <div class="container">
         <h2>Professional experience</h2>
-        <article class="card experience-card">
-          <header class="experience-header">
-            <div>
-              <h3 class="experience-title">Packaged App Development Associate</h3>
-              <p class="card-meta">Accenture · Bangalore, India · Jul 2023 – Jul 2024</p>
-            </div>
-          </header>
-          <p class="experience-intro">Spring Boot, Node.js microservices, React, and cloud deployment with CI/CD.</p>
-          <ul class="card-list experience-list">
-            <li>Built Spring Boot and Node.js microservices on GCP for 10+ client applications; improved API latency through tuned request/response flows and caching.</li>
-            <li>Built responsive UIs with React to improve usability of web-based applications.</li>
-            <li>Implemented cloud-native microservices with CI/CD on Azure and GCP for secure deployment and reliability across distributed environments, enabling regular low-risk AI feature releases.</li>
-            <li>Structured and optimized RESTful APIs with Node.js for microservice communication and system performance.</li>
-            <li>Used MongoDB for data management and Docker for containerization to streamline storage and deployment.</li>
-          </ul>
-        </article>
+        <div class="experience-stack">
+          <article class="card experience-card">
+            <header class="experience-header">
+              <div>
+                <h3 class="experience-title">AI Agent Developer, Research Assistant</h3>
+                <p class="card-meta">University of North Texas · 2025 – 2026</p>
+              </div>
+            </header>
+            <p class="experience-intro">Python, Streamlit, ChromaDB, embeddings, and LLMs for semantic search and grounded Q&amp;A over research PDFs.</p>
+            <ul class="card-list experience-list">
+              <li><strong>Built a retrieval-augmented QA system</strong> that lets users upload research papers, ask natural-language questions, and receive concise answers grounded in retrieved context.</li>
+              <li>Designed an end-to-end pipeline: PDF text extraction, chunking, embedding generation, vector storage in ChromaDB, and LLM answer generation with source citations.</li>
+              <li>Improved retrieval quality with semantic search and optimized chunking to reduce hallucinations and improve context matching.</li>
+              <li>Added explainability and confidence scoring so users can assess answer reliability; shipped an interactive Streamlit UI with quick actions for summaries and key sections.</li>
+            </ul>
+            <p class="experience-links">
+              <a class="btn btn-sm btn-primary" href="https://github.com/Moulya002/RAG_Paper_Assistant" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </p>
+          </article>
+
+          <article class="card experience-card">
+            <header class="experience-header">
+              <div>
+                <h3 class="experience-title">Packaged App Development Associate</h3>
+                <p class="card-meta">Accenture · Bangalore, India · Jul 2023 – Jul 2024</p>
+              </div>
+            </header>
+            <p class="experience-intro">Spring Boot, Node.js microservices, React, and cloud deployment with CI/CD.</p>
+            <ul class="card-list experience-list">
+              <li>Built Spring Boot and Node.js microservices on GCP for 10+ client applications; improved API latency through tuned request/response flows and caching.</li>
+              <li>Built responsive UIs with React to improve usability of web-based applications.</li>
+              <li>Implemented cloud-native microservices with CI/CD on Azure and GCP for secure deployment and reliability across distributed environments, enabling regular low-risk AI feature releases.</li>
+              <li>Structured and optimized RESTful APIs with Node.js for microservice communication and system performance.</li>
+              <li>Used MongoDB for data management and Docker for containerization to streamline storage and deployment.</li>
+            </ul>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -222,7 +243,26 @@
 
           <article class="project-card">
             <header class="project-header">
-              <h3>RAG-Based Interview Agent</h3>
+              <h3>Research Paper Assistant</h3>
+              <p class="project-sub">AI Agent Developer · University of North Texas · 2025 – 2026</p>
+            </header>
+            <p class="project-impact">
+              AI assistant for analyzing research papers—semantic search, grounded Q&amp;A, and source citations over uploaded PDFs.
+            </p>
+            <ul class="project-highlights">
+              <li><strong>Built a RAG pipeline</strong> for PDF extraction, chunking, embeddings, and ChromaDB retrieval with LLM answer generation.</li>
+              <li>Semantic search over paper sections to improve context matching and reduce hallucinations vs. keyword-only search.</li>
+              <li>Explainability and confidence scoring so users can judge answer reliability; Streamlit UI with quick actions for summaries and key sections.</li>
+            </ul>
+            <p class="project-tools" aria-label="Tech stack"><strong>Tech stack:</strong> Python · Streamlit · ChromaDB · embeddings · LLMs · NLP</p>
+            <div class="project-links">
+              <a class="btn btn-sm btn-primary" href="https://github.com/Moulya002/RAG_Paper_Assistant" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <header class="project-header">
+              <h3>Interview Preparation Agent</h3>
               <p class="project-sub">Research project · Advisor: Dr. Clifford Whitworth, University of North Texas · Mar 2026 – May 2026</p>
             </header>
             <p>
