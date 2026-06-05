@@ -243,19 +243,20 @@
 
           <article class="project-card">
             <header class="project-header">
-              <h3>E-Commerce Analytics Dashboard</h3>
-              <p class="project-sub">Personal project</p>
+              <h3>E-Commerce Analytics Platform</h3>
+              <p class="project-sub">Personal Git Repo · Mar 2026 – May 2026</p>
             </header>
             <p class="project-impact">
-              Production-style real-time analytics platform that simulates how modern e-commerce companies process millions of live events—orders, payments, clicks, and inventory updates.
+              Production-style real-time data engineering platform simulating a full e-commerce analytics stack end to end.
             </p>
             <ul class="project-highlights">
-              <li><strong>Engineered scalable streaming pipelines</strong> using Apache Kafka and Apache Spark Structured Streaming to process 100K+ simulated events/day with low-latency analytics.</li>
-              <li>Implemented Change Data Capture (CDC) workflows using Debezium and Kafka Connect for real-time database change tracking and event-driven processing.</li>
-              <li>Designed an AWS-style bronze/silver/gold Parquet-based data lake architecture with streaming ETL pipelines and workflow orchestration using Apache Airflow.</li>
-              <li>Developed interactive real-time dashboards using Streamlit and Plotly to monitor revenue, user activity, clickstream analytics, and geographic insights with live refresh cycles.</li>
+              <li><strong>Architected a production-style real-time data engineering platform</strong> processing ~15 events/sec (~1.3M events/day) across 5 Kafka topics using Apache Kafka, Spark Structured Streaming 3.5, and Debezium CDC.</li>
+              <li>Designed a bronze/silver/gold medallion data lake with partitioned Parquet storage, implementing 10-minute watermark logic for late-arriving data and event-driven CDC sync from PostgreSQL OLTP via Debezium.</li>
+              <li>Built PySpark + Airflow batch ETL pipelines orchestrating bronze → gold layer transformations with AWS Glue-style reference scripts for Redshift warehouse loading, demonstrating cloud-ready DE architecture.</li>
+              <li>Developed CommercePulse, a real-time Streamlit dashboard with 5-second auto-refresh displaying live KPIs (revenue/min, orders/min, active users, failed payments) sourced from Spark Structured Streaming via PostgreSQL, with pipeline health monitoring across Kafka, Spark, data lake, and CDC layers.</li>
+              <li>Containerized the entire stack (Kafka, Spark, Airflow, Debezium, PostgreSQL, Streamlit) using Docker Compose, enabling one-command local deployment of a production-equivalent data engineering environment.</li>
             </ul>
-            <p class="project-tools" aria-label="Tech stack"><strong>Tech stack:</strong> Python · Kafka · PySpark · Spark Structured Streaming · Debezium · Airflow · PostgreSQL · Streamlit · Docker · Parquet · Plotly</p>
+            <p class="project-tools" aria-label="Tools used"><strong>Tools used:</strong> Apache Kafka · Spark Structured Streaming · Debezium · PySpark · Airflow · PostgreSQL · Streamlit · Docker · Parquet · Python</p>
             <div class="project-links">
               <a class="btn btn-sm btn-primary" href="https://github.com/Moulya002/E-Commerce-Analytics-Platform" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
