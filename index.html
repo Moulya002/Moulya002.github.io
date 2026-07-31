@@ -101,11 +101,11 @@
             </header>
             <p class="experience-intro">Python, LLaMA 3.3, ChromaDB, Groq, Sentence Transformers, and Streamlit for production RAG systems.</p>
             <ul class="card-list experience-list">
-              <li><strong>Built RAGGuard</strong>, a production-ready RAG pipeline with Python, LLaMA 3.3-70B, Sentence Transformers (all-MiniLM-L6-v2), ChromaDB, and Groq API, achieving 82% precision@5 and 76% recall@5 on arXiv paper benchmarks.</li>
-              <li><strong>Designed a pre-ingestion classification layer</strong> that filters out ~40% of arXiv papers irrelevant to the target domain using logistic regression on engineered features, with predictions under 5ms before vector indexing.</li>
-              <li>Improved retrieval diversity by removing duplicate chunks and applying Maximal Marginal Relevance (MMR, λ=0.6) semantic retrieval with Sentence Transformer embeddings.</li>
-              <li>Engineered Explainable AI (XAI) features including probability scoring and feature-weight visibility for transparent relevance decisions, maintaining 66.7% refusal accuracy on out-of-scope queries.</li>
-              <li>Launched an end-to-end Streamlit application for PDF upload, semantic Q&amp;A, and source citations—saving up to 3–5 hours per research project in manual paper reading.</li>
+              <li>Built a RAGGuard, a production-ready RAG pipeline with Python, LLaMA 3.3-70B, Sentence Transformers (all-MiniLM-L6-v2), ChromaDB and Groq API, yielding a performance of 82% precision@5 and 76% recall@5 with arXiv paper benchmarks.</li>
+              <li>Designed a pre-ingestion classification layer that filters out ~40% of arXiv papers that are irrelevant to the classification using logistic regression on engineered features that takes less than 5ms to predict a paper's classification before vector indexing.</li>
+              <li>After removing the duplicate chunks retrieved using Maximal Marginal Relevance (MMR, λ=0.6) semantic retrieval with Sentence Transformer embeddings, more diversity in retrieved chunks for each query was added.</li>
+              <li>Probability scoring and feature weight visibility are some of the engineered features of Explainable AI (XAI) that make relevance decisions more transparent and help to maintain a 66.7% refusal accuracy on out-of-scope queries.</li>
+              <li>Launched end-to-end Streamlit application for upload and display of PDF documents, as well as semantic Q&amp;A and source citations – saving up to 3-5 hours a research project in manually reading the paper.</li>
             </ul>
             <p class="experience-links">
               <a class="btn btn-sm btn-primary" href="https://github.com/Moulya002/RAG_Paper_Assistant" target="_blank" rel="noopener noreferrer">View on GitHub</a>
