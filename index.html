@@ -95,16 +95,17 @@
           <article class="card experience-card">
             <header class="experience-header">
               <div>
-                <h3 class="experience-title">AI Agent Developer, Research Assistant</h3>
-                <p class="card-meta">University of North Texas · 2025 – 2026</p>
+                <h3 class="experience-title">AI Agent Developer</h3>
+                <p class="card-meta">Research Assistant · Denton, TX · May 2025 – May 2026</p>
               </div>
             </header>
-            <p class="experience-intro">Python, Streamlit, ChromaDB, embeddings, and LLMs for semantic search and grounded Q&amp;A over research PDFs.</p>
+            <p class="experience-intro">Python, LLaMA 3.3, ChromaDB, Groq, Sentence Transformers, and Streamlit for production RAG systems.</p>
             <ul class="card-list experience-list">
-              <li><strong>Built a retrieval-augmented QA system</strong> that lets users upload research papers, ask natural-language questions, and receive concise answers grounded in retrieved context.</li>
-              <li>Designed an end-to-end pipeline: PDF text extraction, chunking, embedding generation, vector storage in ChromaDB, and LLM answer generation with source citations.</li>
-              <li>Improved retrieval quality with semantic search and optimized chunking to reduce hallucinations and improve context matching.</li>
-              <li>Added explainability and confidence scoring so users can assess answer reliability; shipped an interactive Streamlit UI with quick actions for summaries and key sections.</li>
+              <li><strong>Built RAGGuard</strong>, a production-ready RAG pipeline with Python, LLaMA 3.3-70B, Sentence Transformers (all-MiniLM-L6-v2), ChromaDB, and Groq API, achieving 82% precision@5 and 76% recall@5 on arXiv paper benchmarks.</li>
+              <li><strong>Designed a pre-ingestion classification layer</strong> that filters out ~40% of arXiv papers irrelevant to the target domain using logistic regression on engineered features, with predictions under 5ms before vector indexing.</li>
+              <li>Improved retrieval diversity by removing duplicate chunks and applying Maximal Marginal Relevance (MMR, λ=0.6) semantic retrieval with Sentence Transformer embeddings.</li>
+              <li>Engineered Explainable AI (XAI) features including probability scoring and feature-weight visibility for transparent relevance decisions, maintaining 66.7% refusal accuracy on out-of-scope queries.</li>
+              <li>Launched an end-to-end Streamlit application for PDF upload, semantic Q&amp;A, and source citations—saving up to 3–5 hours per research project in manual paper reading.</li>
             </ul>
             <p class="experience-links">
               <a class="btn btn-sm btn-primary" href="https://github.com/Moulya002/RAG_Paper_Assistant" target="_blank" rel="noopener noreferrer">View on GitHub</a>
